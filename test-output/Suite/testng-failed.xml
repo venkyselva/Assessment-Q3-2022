@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Nallas.Nallas_demoproject.App">
+        <methods>
+          <include name="getResult"/>
+          <include name="beforesuite"/>
+          <include name="openBrowser"/>
+          <include name="TS_001_TC_01"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- Nallas.Nallas_demoproject.App -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" parallel="tests" name="ie Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="Nallas.Nallas_demoproject.App">
+        <methods>
+          <include name="getResult"/>
+          <include name="beforesuite"/>
+          <include name="openBrowser"/>
+          <include name="TS_001_TC_01"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- Nallas.Nallas_demoproject.App -->
+    </classes>
+  </test> <!-- ie Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Nallas.Nallas_demoproject.App">
+        <methods>
+          <include name="getResult"/>
+          <include name="beforesuite"/>
+          <include name="openBrowser"/>
+          <include name="TS_001_TC_01"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- Nallas.Nallas_demoproject.App -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

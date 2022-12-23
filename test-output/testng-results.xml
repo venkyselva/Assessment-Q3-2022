@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T12:46:42Z" name="Default suite" finished-at="2022-12-23T12:49:50Z" duration-ms="187620">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T12:46:42Z" name="Default test" finished-at="2022-12-23T12:49:50Z" duration-ms="187620">
+      <class name="Nallas.Nallas_demoproject.Testcase_Execution">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:46:42Z" name="openBrowser" finished-at="2022-12-23T12:46:54Z" duration-ms="11279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:46:54Z" name="beforesuite" finished-at="2022-12-23T12:46:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method signature="TS01_TC_001()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:46:54Z" name="TS01_TC_001" finished-at="2022-12-23T12:46:54Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS01_TC_001 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:46:54Z" name="getResult" finished-at="2022-12-23T12:46:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS01_TC_001 status=SUCCESS method=Testcase_Execution.TS01_TC_001()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TS_001_TC_02()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:46:54Z" name="TS_001_TC_02" finished-at="2022-12-23T12:49:50Z" duration-ms="175859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_001_TC_02 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:49:50Z" name="getResult" finished-at="2022-12-23T12:49:50Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_001_TC_02 status=SUCCESS method=Testcase_Execution.TS_001_TC_02()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Nallas.Nallas_demoproject.Testcase_Execution@545b995e]" started-at="2022-12-23T12:49:50Z" name="endtest" finished-at="2022-12-23T12:49:50Z" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- Nallas.Nallas_demoproject.Testcase_Execution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
